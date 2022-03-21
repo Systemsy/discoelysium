@@ -31,13 +31,13 @@ favicon: https://raw.githubusercontent.com/syy404/discoelysium/master/images/tab
 
 # 菜单中的按钮
 navigation:
-  - name: 首页
+  - name: index
     url: /
-  - name: 关于
+  - name: about
     url: /about
-  - name: 归档
+  - name: archive
     url: /archive
-  - name: 标签
+  - name: tags
     url: /tags
 
 # 每页的文章数
@@ -65,14 +65,14 @@ footer-links:
   youtube: # channel/<your_long_string> or user/<user-name>
 
 # 站点页脚的文字
-footer-text: Copyright (c) noting serious
+footer-text: Copyright (c) nothing serious there
 
 #
 # 评论，注意，请不要同时添加多种不同的评论区
 #
 
 # 输入Disqus shortname，即可添加评论区，请查阅文档，设置自己的disqus站点，不要继续使用我的站点loffer
-disqus: loffer #shortname
+disqus: #shortname
 
 # 输入Gitalk相关设定，即可添加评论区，具体请看教程
 gitalk:
